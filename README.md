@@ -3,5 +3,8 @@
 
 
 ### Features
-#### 1.SSL Connection Verification Page
+#### 1. SSL Connection Verification Page
 <image src="https://github.com/syl0224/gitlab-android-demo/blob/master/pic/verify_page.png" width="320" height="500"/>
+
+##### 1.1 verify alert dialog
+<image src="https://github.com/syl0224/gitlab-android-demo/blob/master/pic/verify_alert.png" width="320" height="500"/>

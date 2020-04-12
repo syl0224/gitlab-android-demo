@@ -52,7 +52,7 @@
             style="@style/Item.Layout"
             android:layout_height='50dip' >
             <TextView
-                android:id="@+id/verify_btn"
+                android:id="@+id/verify_tv"
                 style="@style/Item.Label"
                 android:clickable="true"
                 android:layout_marginLeft="10dp"
