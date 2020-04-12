@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:fadeScrollbars="false"
+    android:background="@color/verifyBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            style="@style/Item.Layout"
+            android:layout_height='50dip' >
+            <TextView
+                style="@style/Item.Label"
+                android:text="Host"/>
+            <EditText
+                android:id="@+id/host"
+                style="@style/Item.Edit"
+                android:hint="gitlab.com"
+                android:singleLine="true"
+                android:background="@null"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/Item.Layout"
+            android:layout_height='50dip' >
+            <TextView
+                style="@style/Item.Label"
+                android:text="SSL Connection"/>
+            <Switch
+                android:id="@+id/ssl_switch"
+                style="@style/Item.Switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:thumb="@drawable/switch_ios_thumb"
+                android:track="@drawable/switch_ios_track_selector"
+                android:checked='true'/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:background="@color/verifyBackground">
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/Item.Layout"
+            android:layout_height='50dip' >
+            <TextView
+                android:id="@+id/verify_btn"
+                style="@style/Item.Label"
+                android:clickable="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Verify Connection"
+                android:textColor="@color/colorPrimary" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
